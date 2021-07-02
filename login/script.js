@@ -1,4 +1,4 @@
-const DEV = "https://abhinavjuyal.github.io/jsswebsite/";
+const DEV = "https://ayushpaharia.github.io/jsswebsite/";
 const lgLink = document.querySelector("#lLink");
 const rgLink = document.querySelector("#rLink");
 const head = document.querySelector("#l-head");
@@ -57,7 +57,6 @@ document.querySelector("#regisForm").addEventListener("submit", (e) => {
       err(errorMessage);
     });
 });
-
 
 // console.log(errorMessage);
 // if(errorMessage === "There is no user record corresponding to this identifier. The user may have been deleted.") {
